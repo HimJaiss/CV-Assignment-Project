@@ -160,6 +160,20 @@ CCA-3-Computer-Vision/
     └── CCA_3_Computer_Vision_Report.md        # Academic report template & methodology
 ```
 
+### File and Directory Descriptions
+
+| File / Folder Path | Type | Purpose & Details |
+| :--- | :--- | :--- |
+| `CCA_3_Computer_Vision_Assignment.ipynb` | Jupyter Notebook | Complete self-contained notebook implementing all 4 core tasks: Restoration & Segmentation, Feature Extraction & SIFT Matching, Haar & YOLOv8 Object Recognition, and Video Motion Estimation. |
+| `test_cv_algorithms.py` | Python Script | Automated test suite that validates project structure, notebook JSON schema, mathematical formulas (PSNR, MSE), noise generation, morphological filters, and missing file error handling. |
+| `requirements.txt` | Configuration | Pinned project dependencies ensuring seamless reproducibility across local Python virtual environments and Google Colab runtimes. |
+| `README.md` | Markdown Documentation | Comprehensive project overview, technical breakdown, setup instructions, and evaluation guidelines. |
+| `.gitignore` | Configuration | Specifies untracked files and directories (virtual environments, cache folders, local models, and temporary files). |
+| `data/images/` | Input Directory | Directory for user-supplied test images (Primary image for Tasks 1-3, Secondary image for Task 2 matching). |
+| `data/videos/` | Input Directory | Directory for user-supplied video footage used for Task 4 motion estimation. |
+| `outputs/` | Output Directory | Root directory partitioned into task-specific subfolders for saved visual panels, segmentation masks, feature matches, detection records, and quantitative CSV metrics. |
+| `reports/` | Academic Report | Contains `CCA_3_Computer_Vision_Report.md` providing in-depth theoretical analysis, mathematical formulations, and experimental evaluations. |
+
 ---
 
 ## Supplying Your Own Input Data
