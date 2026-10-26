@@ -1,0 +1,25 @@
+# ==============================================================================
+# CCA 3 Computer Vision Assignment - Dependencies
+# ==============================================================================
+# Core Scientific Computing & Data Manipulation
+numpy>=1.24.0,<2.2.0
+pandas>=2.0.0,<3.0.0
+scipy>=1.10.0,<2.0.0
+
+# Computer Vision & Image Processing
+opencv-python>=4.8.0.76,<5.0.0.0
+scikit-image>=0.21.0,<1.0.0
+
+# Visualization & Plotting
+matplotlib>=3.7.0,<4.0.0
+
+# Deep Learning & Object Recognition (Task 3: YOLO)
+ultralytics>=8.0.0
+
+# Interactive Notebook Environment & UI Widgets
+jupyter>=1.0.0
+notebook>=7.0.0
+ipywidgets>=8.0.0
+
+# Testing & Verification Framework
+pytest>=7.4.0
