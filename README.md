@@ -137,6 +137,7 @@ No external source scripts or `src/` modules are required. The notebook executes
 ```text
 CCA-3-Computer-Vision/
 ├── CCA_3_Computer_Vision_Assignment.ipynb    # Main Colab notebook (All 4 tasks)
+├── test_cv_algorithms.py                     # Automated algorithmic & structure test suite
 ├── README.md                                 # Complete project documentation
 ├── requirements.txt                          # Project dependency specifications
 ├── .gitignore                                # Git ignore file for artifacts/data
