@@ -1,5 +1,7 @@
 # CCA 3 Computer Vision Assignment
 
+**Candidate:** Himanshu Jaiswal | **PRN:** 1272250599 | **Course:** Computer Vision  
+
 A comprehensive, reproducible, and Colab-compatible academic project implementing classical and modern Computer Vision algorithms across Image Restoration, Segmentation, Feature Extraction, Object Recognition, and Video Motion Estimation.
 
 Developed for Master of Computer Applications (MCA) / Graduate Computer Vision coursework.

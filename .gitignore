@@ -73,3 +73,11 @@ Thumbs.db
 ehthumbs.db
 [Dd]esktop.ini
 .DS_Store
+
+.pdf_cache/
+*.pdf_cache/
+
+# PDF documentation and generation script (kept local only)
+*.pdf
+CCA_3_Computer_Vision_Documentation.pdf
+generate_documentation_pdf.py
